@@ -17,6 +17,14 @@ header {
   font-size: 1.5rem;
   font-weight: bold;
 }
+.logo a{
+  text-decoration: none;
+}
+
+.logo a:hover{
+  color: green;
+}
+
 .nav-links {
   list-style: none;
   display: flex;
@@ -64,4 +72,9 @@ footer {
   padding: 1rem;
   background-color: #f8f8f8;
   margin-top: 2rem;
+}
+
+/* content specific */
+.content-page {
+  margin: 1rem;
 }
